@@ -1,0 +1,89 @@
+<!-- <div class="container">
+  <h1>Draggable and resize div</h1>
+  <div class="dragDiv" appDragResize>  
+    <div class="resizer one"></div>
+    <div class="resizer two"></div>
+    <div class="resizer three"></div>
+    <div class="resizer four"></div>
+    <p class="p-3">Draggable div <button class="btn btn-danger" (click)="onClick()">Click</button></p>
+  </div>
+</div> -->
+
+
+<!-- <div class="row" style="position: relative;">
+  <div class="col-md-4">
+    <app-div-resize-side></app-div-resize-side>
+  </div>
+  <div class="col-md-4">
+    <app-div-resize-side></app-div-resize-side>
+  </div>
+  <div class="col-md-4">
+    <app-div-resize-side></app-div-resize-side>
+  </div>
+</div> -->
+
+
+<!-- <app-div-resize-side></app-div-resize-side>
+<br>
+<app-div-resize-side></app-div-resize-side>
+<br>
+<app-div-resize-side></app-div-resize-side> -->
+
+
+<div class="row ml-2">
+  <app-div-resize-side></app-div-resize-side>
+</div>
+<div class="row mt-3 ml-2">
+  <app-div-resize-side></app-div-resize-side>
+</div>
+<div class="row mt-3 ml-2">
+  <app-div-resize-side></app-div-resize-side>
+</div>
+
+<!-- <br><p>div1</p>
+<app-div-resize-side></app-div-resize-side>
+<br><p>div2</p>
+<app-div-resize-side></app-div-resize-side> -->
+
+
+
+<br>
+<!-- <app-image-crop></app-image-crop> -->
+
+
+
+
+
+<!-- image crop -->
+
+
+<!-- <div class="container">
+  <div class="row" style="margin-top: 5%;">
+      <div class="text-center col-md-12">
+          <input type="file" (change)="fileChangeEvent($event)" />
+      </div>
+  </div>
+  <div class="row" style="margin-top: 5%;">
+      <div class="text-center col-md-8">
+          <h5>Crop Image</h5>
+          <image-cropper 
+          [imageChangedEvent]="imageChangedEvent" 
+          [maintainAspectRatio]="true" 
+          [aspectRatio]="4 / 4"
+          [resizeToWidth]="256" 
+          format="png" 
+          (imageCropped)="imageCropped($event)" 
+          (imageLoaded)="imageLoaded()"
+          (cropperReady)="cropperReady()" 
+          (loadImageFailed)="loadImageFailed()"></image-cropper>
+      </div>
+      <div class="text-center col-md-4">
+          <h5>Preview</h5>
+          <img [src]="croppedImage" />
+      </div>
+  </div>
+</div> -->
+
+
+
+<app-canvas-map-image></app-canvas-map-image>
