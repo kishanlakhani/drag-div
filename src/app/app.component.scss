@@ -11,15 +11,17 @@
     // overflow: auto;
 }
 
-.dragDiv {
-    height: 20%;
-    width: 20%;
-    position: absolute;
-    background-color: #bddcdfa6;
-    cursor: pointer;
-    border: 2px solid black;
-    // overflow: hidden;
-}
+// .dragDiv {
+//     height: 20%;
+//     width: 20%;
+//     position: absolute;
+//     background-color: #bddcdfa6;
+//     cursor: pointer;
+//     border: 2px solid black;
+//     // overflow: hidden;
+// }
+
+
 
 .resizer {
     position: absolute;
@@ -53,3 +55,4 @@
     right: -1px;
     cursor: nw-resize;
 }
+
